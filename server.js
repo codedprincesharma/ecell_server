@@ -5,7 +5,7 @@ import connectDb from './src/db/db.js';
 connectDb()
 
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 
 
 
