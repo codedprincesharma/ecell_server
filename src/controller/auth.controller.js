@@ -117,11 +117,7 @@ export const getProfileController = async (req, res) => {
   }
 };
 
-/**
- * @desc    Logout User (Clear Cookie)
- * @route   POST /api/v1/auth/logout
- * @access  Private
- */
+
 export const logoutController = async (req, res) => {
   try {
     res.clearCookie("token", {
