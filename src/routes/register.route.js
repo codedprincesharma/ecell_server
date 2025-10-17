@@ -4,7 +4,7 @@ import {
   registerStudentController,
   getAllStudentsController,
   getSingleStudentController
-} from "../controllers/register.controller.js";
+} from "../controller/register.controller.js";
 import authMiddleware from "../middleware/auth.middleware.js";
 
 const router = express.Router();

@@ -1,7 +1,7 @@
 // middleware/auth.middleware.js
 import jwt from "jsonwebtoken";
 
-export const authMiddleware = (req, res, next) => {
+const authMiddleware = (req, res, next) => {
   try {
     // ✅ Read token from cookies first
     const token = req.cookies?.token;
@@ -20,3 +20,5 @@ export const authMiddleware = (req, res, next) => {
     return res.status(403).json({ success: false, message: "Invalid or expired token" });
   }
 };
+
+export default authMiddleware

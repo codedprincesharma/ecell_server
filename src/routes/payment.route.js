@@ -2,7 +2,7 @@ import express from "express";
 import {
   createOrderController,
   verifyPaymentController,
-} from "../controllers/payment.controller.js";
+} from "../controller/payment.controller.js";
 
 import authMiddleware from "../middleware/auth.middleware.js";
 

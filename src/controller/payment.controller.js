@@ -1,4 +1,4 @@
-import razorpay from "../utils/razorpay.js";
+import razorpay from "../utlis/razorpay.js";
 import crypto from "crypto";
 
 // ✅ Step 1: Create Order (called by frontend before payment)
